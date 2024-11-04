@@ -1,0 +1,395 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.landed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.land {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    border-top: 1px solid rgb(238, 233, 233);
+    padding: 20px;
+}
+
+.land-part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.land-part-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.land-part-2 img {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 200px;
+}
+
+.empty {
+    width: 100px;
+    height: 100px;
+}
+
+.green-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(10, 121, 10);
+}
+
+.black-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.land-desc,
+.txt-1,
+.txt-2 {
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(44, 43, 43);
+}
+
+.email-box-lan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-box-lan input {
+    width: auto;
+    height: 40px;
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 14px 0px 0px 14px;
+    padding: 0 10px;
+}
+
+.btn-land {
+    width: auto;
+    height: 40px;
+    padding: 10px 10px;
+    border: solid 2px rgb(247, 89, 32);
+    background-color: rgb(247, 89, 32);
+    border-radius: 0px 14px 14px 0px;
+}
+
+.integrations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.integrations img {
+    width: 80px;
+    height: 30px;
+}
+
+.second-part {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.question {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    max-width: 800px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.card-desc {
+    background-color: inherit;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+
+.card-title {
+    background-color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.mobile-app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mobile-app img {
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.mobile-part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mobile-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(12, 34, 12);
+}
+
+.mobile-desc {
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(44, 43, 43);
+    max-width: 800px;
+}
+
+.mobile-btn {
+    border: solid 2px rgb(248, 71, 6);
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(240, 122, 80);
+    padding: 0 20px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.plans-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.plan-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.plan-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.plan-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.plan-exp-logo {
+    width: auto;
+    height: 50px;
+}
+
+.plan-exp-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    flex: 1;
+}
+
+.plan-subtitle {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.plan-desc {
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.demo-btn {
+    text-align: center;
+}
+
+.demo-btn-btn {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 15px 20px;
+    border: solid 2px rgb(247, 89, 32);
+    background-color: rgb(247, 89, 32);
+    border-radius: 25px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Hover styles */
+.green-title:hover,
+.black-title:hover {
+    color: rgb(247, 89, 32);
+    transition: color 0.3s ease;
+}
+
+.btn-land:hover {
+    background-color: rgb(255, 117, 58);
+    border-color: rgb(255, 117, 58);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.mobile-btn:hover {
+    background-color: rgb(255, 140, 100);
+    border-color: rgb(255, 140, 100);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.card-desc:hover{
+    background-color: inherit;
+}
+
+.card-title:hover{
+
+    background-color: inherit;
+}
+/* Before and after styles */
+.green-title::before,
+.black-title::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: rgb(247, 89, 32);
+    transition: width 0.5s ease;
+}
+
+.green-title:hover::before,
+.black-title:hover::before {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .land {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .land-part-2 img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+
+    .second-part {
+        gap: 50px;
+    }
+
+    .section-2,
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .plans {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .plans-table,
+    .plan-images {
+        width: 100%;
+    }
+}

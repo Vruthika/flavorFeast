@@ -1,0 +1,12 @@
+/* footer.css */
+
+.footer {
+  color: #1a0808;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}

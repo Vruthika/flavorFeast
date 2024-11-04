@@ -1,0 +1,47 @@
+/* Basic styling for the sign-up form */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.tastingtable.com/img/gallery/25-soft-food-ideas-that-will-leave-you-feeling-full-and-satisfied/l-intro-1645232577.jpg');
+    background-color: rgba(235, 158, 182, 0.5);
+    background-attachment: fixed;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    backdrop-filter: blur(50px);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #de9115;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
